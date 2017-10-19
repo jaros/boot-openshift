@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public Envelope home() {
-        return Envelope.envelope("Hällo Döcker World");
+        return Envelope.envelope("Hällö Döcker Wörld");
     }
 
     public static void main(String[] args) {
